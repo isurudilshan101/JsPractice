@@ -57,16 +57,26 @@
 
 ////document.querySelector()
 
-console.log(document.querySelector('#task-title'));
-console.log(document.querySelector('.card-title'));
-console.log(document.querySelector('h5'));
+// console.log(document.querySelector('#task-title'));
+// console.log(document.querySelector('.card-title'));
+// console.log(document.querySelector('h5'));
 
-document.querySelector('li').style.color='red';
-document.querySelector('ul li').style.color='blue';
+// document.querySelector('li').style.color='red';
+// document.querySelector('ul li').style.color='blue';
 
-document.querySelector('li:last-child').style.color='yello';
-document.querySelector('li:nth-child(3)').style.color='red';
-document.querySelector('li:nth-child(4)').textContent='hello world';
-document.querySelector('li:nth-child(odd)').style.background='#ccc';
+// document.querySelector('li:last-child').style.color='yello';
+// document.querySelector('li:nth-child(3)').style.color='red';
+// document.querySelector('li:nth-child(4)').textContent='hello world';
+// document.querySelector('li:nth-child(odd)').style.background='#ccc';
 
 
+////document.getElimentByClassName
+
+const items=document.getElementsByClassName('collection-item');
+console.log(items);
+console.log(items[0]);
+items[0].style.color='red';
+items[3].textContent='helo';
+
+///////////////////////////////const listItems=document.querySelector('ul').getElementsByClassName('collection-item');
+console.log(listItems);

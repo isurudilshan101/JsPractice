@@ -72,11 +72,70 @@
 
 ////document.getElimentByClassName
 
-const items=document.getElementsByClassName('collection-item');
-console.log(items);
-console.log(items[0]);
-items[0].style.color='red';
-items[3].textContent='helo';
+// const items=document.getElementsByClassName('collection-item');
+// console.log(items);
+// console.log(items[0]);
+// items[0].style.color='red';
+// items[3].textContent='helo';
 
 ///////////////////////////////const listItems=document.querySelector('ul').getElementsByClassName('collection-item');
-console.log(listItems);
+//console.log(listItems);
+
+// let lis=document.getElementsByTagName('li');
+// console.log(lis);
+// console.log(items[0]);
+// items[0].style.color='red';
+// items[3].textContent='helo';
+
+/////////////////////////////convert HTML into Array
+
+// lis=Array.from(lis);
+
+// lis.reverse();
+
+// lis.forEach(function(li,index)
+// {
+//     console.log(li.className);
+//     li.textContent=`${index}:Hello`;
+// });
+
+// console.log(lis);
+
+// const liOdd=document.querySelectorAll('li:nth-child(odd)');
+// const liEven=document.querySelectorAll('li:nth-child(even)');
+
+// liOdd.forEach(function(li,index)
+// {
+//     li.style.background='#ccc';
+// });
+
+// for(let i=0; i<liEven.length;i++)
+// {
+//     liEven[i].style.background='red';
+// }
+
+/////////////////////////////////////////
+
+//create element
+
+const li=document.createElement('li');
+
+//add class
+li.className='collection-item';
+
+//add id
+
+li.id='newItem';
+
+//add atribute
+
+li.setAttribute('title','new Item');
+
+//create text note and append
+li.appendChild(document.createTextNode('Hello world'));
+
+//append li as child to ul
+document.querySelector('ul.collection').appendChild(li);
+
+console.log(li);
+

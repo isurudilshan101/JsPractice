@@ -13,3 +13,16 @@ function greet(firstName,lastName){
 }
 
 console.log(greet('isuru','dilshan'));
+
+(function(name){
+    console.log('hello'+' '+name);
+   
+})('isuru');
+
+const todo={
+    add:function(){
+        console.log('Add todo...');
+    },
+}
+
+todo.add();

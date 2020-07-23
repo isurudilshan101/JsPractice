@@ -7,9 +7,9 @@ const squre=function(x){
 
 console.log(squre(8));
 
-function greet(){
-    // return 'firstName' + 'lastName';
-    console.log('isuru');
+function greet(firstName,lastName){
+     return firstName+ ' ' + lastName;
+   // console.log('isuru');
 }
 
-greet();
+console.log(greet('isuru','dilshan'));

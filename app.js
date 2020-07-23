@@ -23,6 +23,11 @@ const todo={
     add:function(){
         console.log('Add todo...');
     },
+
+    delete:function(id){
+        console.log(`delete ${id}`);
+    }
 }
 
 todo.add();
+todo.delete(10);

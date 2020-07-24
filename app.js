@@ -1,33 +1,42 @@
-alert('Hi welcome to the jsss');
+// alert('Hi welcome to the jsss');
 
 
-const squre=function(x){
-    return x*x;
-}
 
-console.log(squre(8));
 
-function greet(firstName,lastName){
-     return firstName+ ' ' + lastName;
-   // console.log('isuru');
-}
+// const squre=function(x){
+//     return x*x;
+// }
 
-console.log(greet('isuru','dilshan'));
+// console.log(squre(8));
 
-(function(name){
-    console.log('hello'+' '+name);
+// function greet(firstName,lastName){
+//      return firstName+ ' ' + lastName;
+//    // console.log('isuru');
+// }
+
+// console.log(greet('isuru','dilshan'));
+
+
+// //immidiately invokeble functions expressions
+// (function(name){
+//     console.log('hello'+' '+name);
    
-})('isuru');
+// })('isuru');
 
-const todo={
-    add:function(){
-        console.log('Add todo...');
-    },
+// //property methods
+// const todo={
+//     add:function(){
+//         console.log('Add todo...');
+//     },
 
-    delete:function(id){
-        console.log(`delete ${id}`);
-    }
-}
+//     delete:function(id){
+//         console.log(`delete ${id}`);
+//     }
+// }
 
-todo.add();
-todo.delete(10);
+// todo.add();
+// todo.delete(10);
+
+//prompt
+const input=prompt();
+alert(input);

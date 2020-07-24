@@ -38,5 +38,14 @@
 // todo.delete(10);
 
 //prompt
-const input=prompt();
-alert(input);
+// const input=prompt();
+// alert(input);
+
+//confirm
+
+if(confirm('Are you sure?')){
+    console.log('yes');
+}else{
+    console.log('no');
+}
+

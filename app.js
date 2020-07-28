@@ -41,11 +41,14 @@
 // const input=prompt();
 // alert(input);
 
-//confirm
-//Event bubbling
+// //confirm
+// //Event bubbling
 
-document.querySelector('card-title').addEventListener('clicl',
-function(){
-    console.log('card title');
-});
+// document.querySelector('.card-title').addEventListener('click',
+// function(){
+//     console.log('card title');
+// });
+
+localStorage.setItem('name','John');
+sessionStorage.setItem('df','fg')
 

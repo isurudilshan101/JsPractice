@@ -50,5 +50,9 @@
 // });
 
 localStorage.setItem('name','John');
-sessionStorage.setItem('df','fg')
+//sessionStorage.setItem('df','fg')
+localStorage.setItem('age','30');
 
+const name=localStorage.getItem('name');
+const age=localStorage.getItem(age);
+console.log(name,age);

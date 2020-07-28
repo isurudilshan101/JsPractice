@@ -42,10 +42,10 @@
 // alert(input);
 
 //confirm
+//Event bubbling
 
-if(confirm('Are you sure?')){
-    console.log('yes');
-}else{
-    console.log('no');
-}
+document.querySelector('card-title').addEventListener('clicl',
+function(){
+    console.log('card title');
+});
 

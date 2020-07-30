@@ -49,10 +49,10 @@
 //     console.log('card title');
 // });
 
-localStorage.setItem('name','John');
+localStorage.setItem('name','isuru');
 //sessionStorage.setItem('df','fg')
-localStorage.setItem('age','30');
+localStorage.setItem('age','39');
 
 const name=localStorage.getItem('name');
-const age=localStorage.getItem(age);
+const age=localStorage.getItem('age');
 console.log(name,age);
